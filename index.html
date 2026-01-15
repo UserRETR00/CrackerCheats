@@ -189,7 +189,7 @@
                     <h2 class="text-2xl font-semibold mb-4" id="main-content-title">Actualizaciones</h2>
                     <div class="content-list mb-4">
                         <ul class="space-y-2" id="main-content-list">
-                            <li><i class="fas fa-times-circle mr-2 text-red-400"></i> Página Caída</li>
+                            <li><i class="fas fa-arrow-circle-down mr-2 text-red-400"></i> Página Caída</li>
                         </ul>
                     </div>
                     <div id="selected-item" class="text-lg font-semibold mb-3 text-green-400"></div>
@@ -224,7 +224,7 @@
             if (content === 'Actualizaciones') {
                 mainContentTitle.innerHTML = '<i class="fas fa-sync-alt mr-2"></i> Actualizaciones';
                 mainContentList.innerHTML = `
-                    <li><i class="fas fa-times-circle mr-2 text-red-400"></i> Página Caída</li>
+                    <li><i class="fas fa-arrow-circle-down mr-2 text-red-400"></i> Página Caída</li>
                 `;
                 downloadButton.classList.add('hidden');
                 newUpdateIcon.style.display = 'none';
